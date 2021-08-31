@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:p341_ecommercemid_api/services/services.dart';
+import '../../../services/services.dart';
 import '../../../cubits/detail_shop/detail_shop_cubit.dart';
 import '../../../shared/shared.dart';
 import '../../../ui/pages/review_page/review_page.dart';

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:p341_ecommercemid_api/ui/pages/detail_product_page/detail_shop_page.dart';
-import 'package:p341_ecommercemid_api/ui/widgets/widgets.dart';
+import '../../../ui/pages/detail_product_page/detail_shop_page.dart';
+import '../../../ui/widgets/widgets.dart';
 import '../../../cubits/cubits.dart';
 import '../../../shared/shared.dart';
 import '../../../models/models.dart';
