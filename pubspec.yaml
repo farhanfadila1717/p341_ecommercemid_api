@@ -1,0 +1,39 @@
+name: p341_ecommercemid_api
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  loading_card:
+    git:
+      url: https://github.com/farhanfadila1717/loading_card.git
+      ref: master
+  carousel_slider: ^4.0.0
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^7.0.1
+  font_awesome_flutter: ^9.1.0
+  google_fonts: ^2.1.0
+  http: ^0.13.3
+  shared_preferences: ^2.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/checkout/
+    - assets/images/checkout/cart/
+    - assets/images/products/
+    - assets/images/splash/
+    - assets/images/profile/
+    - assets/images/thumbs/category/
+    - assets/images/thumbs/dress/
+    - assets/images/thumbs/products/
+    - assets/images/thumbs/shirt/
